@@ -2,13 +2,13 @@
     font-family: 'Press Start 2P', cursive;
 }
 
-body{
+body {
     background-color: #e6e6e6;
 }
 
 .container{
     display: grid;
-    grid-template-columns: 320px 200px;
+    grid-template-columns: 320px 210px;
     justify-content: center;
     margin-top: 40px;
 }
@@ -19,8 +19,17 @@ body{
     justify-content: space-between;
 }
 
+
+.mini{
+    text-align: center;
+}
+
 #board{
-    border: 2px solid black
+    border: 2px solid black;
+}
+
+#mini-board{
+    border: 2px solid black;
 }
 
 .play-btn{
